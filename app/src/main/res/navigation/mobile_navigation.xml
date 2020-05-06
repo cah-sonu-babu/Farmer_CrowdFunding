@@ -16,12 +16,33 @@
         android:name="com.example.crowdfunding.ui.bank.BankFragment"
         android:label="@string/menu_bank"
         tools:layout="@layout/fragment_bank"/>
+    <fragment
+        android:id="@+id/nav_sellcrop"
+        android:name="com.example.crowdfunding.ui.sellcrops.SellcropsFragment"
+        android:label="@string/menu_sellcrop"
+        tools:layout="@layout/fragment_sellcrops"/>
+    <fragment
+        android:id="@+id/nav_cropinfo"
+        android:name="com.example.crowdfunding.ui.cropinfo.CropInfoFragment"
+        android:label="@string/menu_cropinfo"
+        tools:layout="@layout/fragment_cropinfo"/>
+    <fragment
+        android:id="@+id/nav_insurance"
+        android:name="com.example.crowdfunding.ui.insurance.InsuranceFragment"
+        android:label="@string/menu_insurance"
+        tools:layout="@layout/fragment_insurance"/>
+    <fragment
+        android:id="@+id/nav_policies"
+        android:name="com.example.crowdfunding.ui.policies.PoliciesFragment"
+        android:label="@string/menu_policies"
+        tools:layout="@layout/fragment_policies"/>
+
 
     <fragment
-        android:id="@+id/nav_cart"
-        android:name="com.example.crowdfunding.ui.cart.CartFragment"
-        android:label="@string/menu_cart"
-        tools:layout="@layout/fragment_cart"/>
+        android:id="@+id/nav_helpforum"
+        android:name="com.example.crowdfunding.ui.helpforum.HelpforumFragment"
+        android:label="@string/menu_helpforum"
+        tools:layout="@layout/fragment_help" />
 
     <fragment
         android:id="@+id/nav_about"
@@ -29,9 +50,11 @@
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_about" />
     <fragment
-        android:id="@+id/nav_setting"
-        android:name="com.example.crowdfunding.ui.setting.SettingFragment"
-        android:label="@string/menu_setting"
-        tools:layout="@layout/fragment_setting" />
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.crowdfunding.ui.dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+
 
 </navigation>

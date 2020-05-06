@@ -21,7 +21,7 @@ public class HomeFragment extends Fragment {
     private RecyclerView recyclerview;
     private String sname[]={"National Mission For Sustainable Agriculture (NMSA)","Pradhan Mantri Krishi Sinchai Yojana (PMKSY)","Paramparagat Krishi Vikas Yojana (PKVY)",
     "Pradhan Mantri Fasal Bima Yojana (PMFBY)","Gramin Bhandaran Yojna","Livestock insurance Scheme","Scheme on Fisheries Training and Extension",
-    "National Scheme on Welfare of Fishermen","Micro Irrigation Fund (MIF"};
+    "National Scheme on Welfare of Fishermen","Micro Irrigation Fund (MIF)"};
 
     private String sdesc[]={"National Mission for Sustainable Agriculture (NMSA) has been formulated for enhancing agricultural productivity especially in rainfed areas focusing on integrated farming, water use efficiency, soil health management and synergizing resource conservation.",
     "Har Khet ko Pani Prime Minister Krishi Sinchayee Yojana Government of India is committed to accord high priority to water conservation and its management. To this effect Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation 'Har Khet ko pani' and improving water use efficiency 'More crop per drop' in a focused manner with end to end solution on various activities.",
