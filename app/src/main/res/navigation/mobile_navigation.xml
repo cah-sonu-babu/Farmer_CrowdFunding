@@ -7,53 +7,53 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.crowdfunding.ui.home.HomeFragment"
+        android:name="com.example.crowdfunding.uifarmer.homefarmer.HomefarmerFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home"/>
+        tools:layout="@layout/fragment_home_farmer"/>
 
     <fragment
         android:id="@+id/nav_bank"
-        android:name="com.example.crowdfunding.ui.bank.BankFragment"
+        android:name="com.example.crowdfunding.uifarmer.bankfarmer.BankfarmerFragment"
         android:label="@string/menu_bank"
-        tools:layout="@layout/fragment_bank"/>
+        tools:layout="@layout/fragment_bank_farmer"/>
     <fragment
         android:id="@+id/nav_sellcrop"
-        android:name="com.example.crowdfunding.ui.sellcrops.SellcropsFragment"
+        android:name="com.example.crowdfunding.uifarmer.sellcropsfarmer.SellcropsfarmerFragment"
         android:label="@string/menu_sellcrop"
-        tools:layout="@layout/fragment_sellcrops"/>
+        tools:layout="@layout/fragment_sellcrops_farmer"/>
     <fragment
         android:id="@+id/nav_cropinfo"
-        android:name="com.example.crowdfunding.ui.cropinfo.CropInfoFragment"
+        android:name="com.example.crowdfunding.uifarmer.cropinfofarmer.CropInfofarmerFragment"
         android:label="@string/menu_cropinfo"
-        tools:layout="@layout/fragment_cropinfo"/>
+        tools:layout="@layout/fragment_cropinfo_farmer"/>
     <fragment
         android:id="@+id/nav_insurance"
-        android:name="com.example.crowdfunding.ui.insurance.InsuranceFragment"
+        android:name="com.example.crowdfunding.uifarmer.insurancefarmer.InsurancefarmerFragment"
         android:label="@string/menu_insurance"
-        tools:layout="@layout/fragment_insurance"/>
+        tools:layout="@layout/fragment_insurance_farmer"/>
     <fragment
         android:id="@+id/nav_policies"
-        android:name="com.example.crowdfunding.ui.policies.PoliciesFragment"
+        android:name="com.example.crowdfunding.uifarmer.policiesfarmer.PoliciesfarmerFragment"
         android:label="@string/menu_policies"
-        tools:layout="@layout/fragment_policies"/>
+        tools:layout="@layout/fragment_policies_farmer"/>
 
 
     <fragment
         android:id="@+id/nav_helpforum"
-        android:name="com.example.crowdfunding.ui.helpforum.HelpforumFragment"
+        android:name="com.example.crowdfunding.uifarmer.helpforumfarmer.HelpforumfarmerFragment"
         android:label="@string/menu_helpforum"
-        tools:layout="@layout/fragment_help" />
+        tools:layout="@layout/fragment_help_farmer" />
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.example.crowdfunding.ui.about.AboutFragment"
+        android:name="com.example.crowdfunding.uifarmer.aboutfarmer.AboutfarmerFragment"
         android:label="@string/menu_about"
-        tools:layout="@layout/fragment_about" />
+        tools:layout="@layout/fragment_about_farmer" />
     <fragment
         android:id="@+id/nav_dashboard"
-        android:name="com.example.crowdfunding.ui.dashboard.DashboardFragment"
+        android:name="com.example.crowdfunding.uifarmer.dashboardfarmer.DashboardfarmerFragment"
         android:label="@string/menu_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard_farmer" />
 
 
 
